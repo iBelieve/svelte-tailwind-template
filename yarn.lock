@@ -3545,10 +3545,10 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
-nanoid@^3.1.20:
-  version "3.1.20"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
-  integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
+nanoid@^3.1.30:
+  version "3.1.30"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
+  integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -3971,6 +3971,11 @@ physical-cpu-count@^2.0.0:
   resolved "https://registry.yarnpkg.com/physical-cpu-count/-/physical-cpu-count-2.0.0.tgz#18de2f97e4bf7a9551ad7511942b5496f7aba660"
   integrity sha1-GN4vl+S/epVRrXURlCtUlverpmA=
 
+picocolors@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+
 pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
@@ -4359,14 +4364,14 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.17, po
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.2.1:
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.1.tgz#eabc5557c4558059b9d9e5b15bce7ffa9089c2a8"
-  integrity sha512-RhsqOOAQzTgh1UB/IZdca7F9WDb7SUCR2Vnv1x7DbvuuggQIpoDwjK+q0rzoPffhYvWNKX5JSwS4so4K3UC6vA==
+postcss@^8, postcss@^8.2.1:
+  version "8.3.11"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.11.tgz#c3beca7ea811cd5e1c4a3ec6d2e7599ef1f8f858"
+  integrity sha512-hCmlUAIlUiav8Xdqw3Io4LcpA1DOt7h3LSTAC4G6JGHFFaWzI6qvFt9oilvl8BmkbBRX1IhM90ZAmpk68zccQA==
   dependencies:
-    colorette "^1.2.1"
-    nanoid "^3.1.20"
-    source-map "^0.6.1"
+    nanoid "^3.1.30"
+    picocolors "^1.0.0"
+    source-map-js "^0.6.2"
 
 posthtml-parser@^0.4.0, posthtml-parser@^0.4.1:
   version "0.4.2"
@@ -4937,6 +4942,11 @@ snapdragon@^0.8.1:
     source-map "^0.5.6"
     source-map-resolve "^0.5.0"
     use "^3.1.0"
+
+source-map-js@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
+  integrity sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==
 
 source-map-resolve@^0.5.0:
   version "0.5.3"
